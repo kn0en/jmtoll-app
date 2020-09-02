@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:gravity="end">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jmtoll_bold"
+            android:backgroundTint="#C62828"
+            app:cornerRadius="10dp"
+            android:text="X" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/finding_layout" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Jika sudah mendapatkan panggilan dari operator,
+                                 tekan tombol button warna HIJAU dibawah ini, untuk KONFIRMASI." />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">JMToll App</string>
+
+    <string name="i_m_officer">I\'M OFFICER</string>
+    <string name="i_m_rider">I\'M RIDER</string>
+    <string name="off_email">Email</string>
+    <string name="off_password">Password</string>
+    <string name="rid_email">Email</string>
+    <string name="rid_password">Password</string>
+    <string name="off_login">LOGIN</string>
+    <string name="off_register">REGISTER</string>
+    <string name="rid_login">LOGIN</string>
+    <string name="rid_register">REGISTER</string>
+    <string name="title_activity_officer_maps">Map</string>
+    <string name="title_activity_rider_maps">Map</string>
+    <string name="api_key">AIzaSyCkDmxa8Le6ffXQyubRMfQVaEJQyRdxwqc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_account">My Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="settings">Settings</string>
+    <string name="picked_customer">Picked Customer</string>
+    <string name="log_out">Log out</string>
+    <string name="destination">Destination: --</string>
+    <string name="officer_maps">Officer Maps</string>
+
+</resources>
